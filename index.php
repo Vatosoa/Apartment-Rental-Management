@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content='ID-edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apartment Rental Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">    
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 </head>
@@ -16,7 +16,7 @@
         font-family: 'Poppins', sans-serif;
     }
     .h-font{
-        font-family: 'Merianda', cursive;
+        font-family: 'Merienda', cursive;
     }
     /** Chrome, Safari, Edge, Opera */
     input::-webkit-outer-spin-button,
@@ -38,6 +38,13 @@
       margin-top: -50px;
       z-index: 2;
       position: relative;
+    }
+
+    @media screen and (max-width: 575px){
+      .availability-form{
+        margin-top: 25px;
+        padding: 0 35px;
+      }
     }
     </style>
 
@@ -250,10 +257,43 @@
 </div>
 
 
+
+<!-- Our Rooms  -->
+<h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR ROOMS</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 my-3">
+
+      <div class="card border-0 shadow" style="max-width: 350px; margin:auto;">
+        <img src="images/rooms/1.jpg" class="card-img-top" alt="...">
+        
+        <div class="card-body">
+          <h5>Simple Room Name</h5>
+          <h6 class="mb-4">MGA 20.000 per night</h6>
+          <div class="features mb-4">
+            <h6 class="mb-1">Features</h6>
+            <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap lh-base">
+              Note: Your details must match with your ID (National ID, Passport, Driving License, etc.)
+            that will be rquired during check-in.
+            </span>
+          </div>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-lg-12 text-center mt-5">
+      <a href="#" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Rooms >>></a>
+    </div>
+  </div>
+</div>
+
 <br><br><br>
 <br><br><br>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
