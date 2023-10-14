@@ -12,10 +12,13 @@
 
   <?php require('inc/header.php'); ?>
 
+  <div class="my-5 px-4">
+<h2 class="text-center fw-bold h-font">OUR FACILITIES</h2>
+
+</div>
 
   <?php require('inc/footer.php'); ?>
 
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 </body>
 </html>
