@@ -13,8 +13,8 @@
   <?php require('inc/header.php'); ?>
 
   <div class="my-5 px-4">
-<h2 class="text-center fw-bold h-font">OUR FACILITIES</h2>
-
+    <h2 class="text-center fw-bold h-font">OUR FACILITIES</h2>
+    <div class="h-line bg-dark"></div>
 </div>
 
   <?php require('inc/footer.php'); ?>
