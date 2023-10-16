@@ -33,7 +33,7 @@
           <iframe class="w-100 rounded mb-4" height="320px" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d30198.573762513042!2d47.49474236922342!3d-18.894988615425714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x21f07f0712655403%3A0x285e55b835194554!2sGrand%20Appart&#39;%20Antaninarenina%2C%208%20Rue%20G%C3%A9n%C3%A9ral%20Rabehevitra%2C%20Antananarivo!3m2!1d-18.910506599999998!2d47.5237365!4m5!1s0x21f07de34f1f4eb3%3A0xdf110608bcc082f9!2sTananarive!3m2!1d-18.8791902!2d47.5079055!5e0!3m2!1sfr!2smg!4v1697124249363!5m2!1sfr!2smg"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
           
           <h5>Address</h5>
-          <a href="#" target="_blank" class="d-inline-block text-decoration-none text-dark mb-2">
+          <a href="https://maps.app.goo.gl/FzihcdFPaKFvLRWG8" target="_blank" class="d-inline-block text-decoration-none text-dark mb-2">
             <i class="bi bi-geo-alt-fill"></i> XYZ, Antananarivo Madagascar
           </a>
           
