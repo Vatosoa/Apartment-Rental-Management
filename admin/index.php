@@ -1,3 +1,7 @@
+<?php
+    require('inc/db_config.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
