@@ -15,7 +15,7 @@
             top:50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            width: 400px
+            width: 400px;
         }
     </style>
 </head>
@@ -29,7 +29,7 @@
                     <input name="admin_name" required type="text" class="form-control shadow-none text-center" placeholder="Admin Name">
                 </div>
                 <div class="mb-4">
-                    <input name="admin_pass"required type="password" class="form-control shadow-none text-center" placeholder="Password">
+                    <input name="admin_pass" required type="password" class="form-control shadow-none text-center" placeholder="Password">
                 </div>
                 <button name="login" type="submit" class="btn text-white custom-bg shadow-none">LOGIN</button>
             </div>
@@ -42,11 +42,13 @@
         if(isset($_POST['login']))
         {
             $frm_data = filteration($_POST);
-            echo"<h1>$frm_data[admin_name]</h1>";
-            echo"<h1>$frm_data[admin_pass]</h1>";
+            
+            $query = "SELECT * FROM `admin_cred` WHERE `admin_name`=? AND `admin_pass`=? ";
+            $values = [$frm_data['admin_name'], $frm_data['admin_pass']];
 
-            // print_r($frm_data);
-        }
+            $res = select($query, $value, "ss");
+            print_r($res);
+        }   
     ?>
 
 
