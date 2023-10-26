@@ -37,6 +37,20 @@
     </div>
 
 
+    <?php
+
+        if(isset($_POST['login']))
+        {
+            $frm_data = filteration($_POST);
+            echo"<h1>$frm_data[admin_name]</h1>";
+            echo"<h1>$frm_data[admin_pass]</h1>";
+
+            // print_r($frm_data);
+        }
+    ?>
+
+
+
     <?php require('inc/scripts'); ?>    
 </body>
 </html>
