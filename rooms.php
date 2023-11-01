@@ -20,9 +20,11 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-3 col-md-12 mb-lg-0 mb-4 px-lg-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white rounded shadow">
-          <div class="container-fluid flex-lg-column align-items-stretch">
+    <div class="col-lg-3 col-md-12 mb-lg-0 mb-4 px-lg-0">
+        
+      <nav class="navbar navbar-expand-lg navbar-light bg-white rounded shadow">
+          
+        <div class="container-fluid flex-lg-column align-items-stretch">
             <h4 class="mt-2">FILTERS</h4>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#filterDropdown">
               <span class="navbar-toggler-icon"></span>
@@ -61,12 +63,12 @@
                   <label class="form-label">Children</label>
                   <input type="number" class="form-control shadow-none">
                 </div>
-                </div> 
-                
-                  
+                </div>  
               </div>
               
             </div></div>
+      </nav>
+      
           </div>
 
       <div class="col-lg-9 col-md-12 px-4">
