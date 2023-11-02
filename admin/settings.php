@@ -26,7 +26,7 @@
                     <div class="card-body">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <h5 class="card-title m-0">General Settings</h5>
-                            <button type="button" class="btn btn-dark shadow-none btn-sù" data-bs-toggle="modal" data-bs-target="#general-s">Edit</button>
+                            <button type="button" class="btn btn-dark shadow-none btn-sù" data-bs-toggle="modal" data-bs-target="#general-s"><i class="bi bi-pencil-square"></i> Edit</button>
                         </div>
                         <h5 class="card-su btitle mb-1 fw-bold">Site Title</h5>
                         <p class="card-text">content</p>
@@ -35,14 +35,25 @@
                     </div>
                 </div>
 
-                <div class="modal fade" id="general-s" data-bs-backdrop="static" data-bs-keyboard="false">
+                <div class="modal fade" id="general-s" data-bs-backdrop="static" data-bs-keyboard="true">
                     <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                                <button type="button" class="btn- close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <form>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">General Settings</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mb-3">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" class="form-control shadow-none">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn text-secondary shadow-none" data-bs-dismiss="modal">CANCEL</button>
+                                    <button type="button" class="btn custom-bg text-white shadow-none">SUBMIT</button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div></div>
 
