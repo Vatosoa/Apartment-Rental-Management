@@ -44,8 +44,12 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="mb-3">
-                                        <label class="form-label">Name</label>
-                                        <input type="text" class="form-control shadow-none">
+                                        <label class="form-label">Site Title</label>
+                                        <input type="text" name="site_title" class="form-control shadow-none" name="site_title">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">About us</label>
+                                        <textarea name="site_about" rows="6" class="form-control shadow-none"></textarea>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -60,6 +64,8 @@
             </div>
         </div>
     </div>
-</body>    <?php require('inc/scripts.php'); ?>
+</body>    
+
+<?php require('inc/scripts.php'); ?>
 
  </html>
