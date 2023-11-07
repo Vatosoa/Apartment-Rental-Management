@@ -78,9 +78,18 @@
         xhr.open("POST", "ajax/settings_crud.php", true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
-        
+        xhr.onload = function(){
+            general_data = this.responseText;
+            console.log(general_data);
+        }
+
         xhr.send('get_general');
     }
+
+    window.onload = function(){
+        get_general();
+    }
+
 </script>
 
  </html>
